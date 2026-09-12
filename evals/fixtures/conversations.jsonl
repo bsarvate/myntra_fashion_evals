@@ -1,0 +1,1 @@
+{"case_id": "C01", "group_id": "C01", "split": "dev", "evidence": "synthetic", "settings": {"budget": "2500", "sizes": {"top": "M", "bottom": "M"}, "price_unit": "CATALOG_UNITS"}, "turns": [{"request": "Suggest a black pure cotton top with blue jeans.", "expected": {"status": "validated", "required_ids": ["S01", "S04"], "max_calls": 6}}]}

@@ -1,0 +1,15 @@
+{
+  "case_id": "T001",
+  "group_id": "independent-shopping-intent-001",
+  "split": "dev",
+  "category": "text_exact_attributes",
+  "evidence": "human_reviewed",
+  "query": "A black pure cotton top",
+  "image_path": null,
+  "filters": {"slot": "top", "color": "black", "fabric": "pure cotton"},
+  "methods": ["bm25", "dense", "hybrid"],
+  "exhaustive": false,
+  "expected_no_match": false,
+  "judgments": {},
+  "annotation": "TEMPLATE ONLY. Add independently reviewed product IDs with grades 0–3 before evaluation."
+}

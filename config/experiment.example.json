@@ -1,0 +1,18 @@
+{
+  "catalog_sha256": "fill_after_import",
+  "benchmark_version": "human-reviewed-v1-pending",
+  "split": "dev",
+  "seed": 42,
+  "k": 5,
+  "candidate_depth": 30,
+  "rrf_constant": 60,
+  "text_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "text_revision": null,
+  "image_model": "openai/clip-vit-base-patch32",
+  "image_revision": null,
+  "nebius_model": null,
+  "temperature": 0,
+  "max_model_calls_per_turn": 6,
+  "max_model_calls_per_session": 30,
+  "note": "Resolve embedding revisions and freeze configuration before held-out runs. No model quality result exists yet."
+}

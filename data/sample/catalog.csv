@@ -1,0 +1,9 @@
+product_id,name,description,slot,category,color,fabric,price,price_unit,image_path
+S01,Black cotton top,Synthetic plain casual top,top,top,black,pure cotton,800,CATALOG_UNITS,
+S02,Yellow crop top,Synthetic relaxed holiday crop top,top,crop top,yellow,cotton blend,600,CATALOG_UNITS,
+S03,Floral blouse,Synthetic floral summer blouse,top,blouse,white,viscose rayon,900,CATALOG_UNITS,
+S04,Blue jeans,Synthetic blue straight leg jeans,bottom,jeans,blue,cotton blend,1200,CATALOG_UNITS,
+S05,Blue denim shorts,Synthetic blue holiday denim shorts,bottom,shorts,blue,cotton blend,700,CATALOG_UNITS,
+S06,Black trousers,Synthetic formal black trousers,bottom,trousers,black,polyester,1100,CATALOG_UNITS,
+S07,Green cotton set,Synthetic coordinated cotton clothing set,set,set,green,pure cotton,1600,CATALOG_UNITS,
+S08,Silk blouse,Synthetic dressy silk blouse,top,blouse,red,pure silk,1800,CATALOG_UNITS,

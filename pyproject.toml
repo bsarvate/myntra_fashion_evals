@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fashion-assistant-evals"
+version = "0.1.0"
+description = "Evaluation-first multimodal fashion assistant with a granular teaching notebook"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "pillow>=10,<13", "requests>=2.32,<3", "python-dotenv>=1,<2", "langchain-core>=1,<2", "langchain-nebius>=0.1,<1", "langgraph>=1,<2"]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.45,<2"]
+notebook = ["jupyterlab>=4,<5", "nbclient>=0.10,<1", "ipywidgets>=8,<9", "jsonschema[format]>=4.26,<5"]
+search = [
+    "pinecone>=7,<9",
+    "sentence-transformers==3.4.1",
+    "transformers==4.57.2",
+    "torch==2.2.2; platform_system == 'Darwin' and platform_machine == 'x86_64'",
+    "numpy>=1.26,<2; platform_system == 'Darwin' and platform_machine == 'x86_64'",
+    "torch>=2.6,<3; platform_system != 'Darwin' or platform_machine != 'x86_64'",
+]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

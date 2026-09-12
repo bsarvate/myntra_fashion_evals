@@ -1,0 +1,21 @@
+{
+  "cases": 120,
+  "by_kind": {
+    "text": 40,
+    "image": 30,
+    "conversation": 30,
+    "boundary": 20
+  },
+  "by_split": {
+    "dev": 84,
+    "test": 36
+  },
+  "groups": 50,
+  "pending_human_relevance": 10,
+  "benchmark_sha256": "ad4e0c4ec8994f8afb987ef0c27b8aea6592f88819d900fc631f7a6a2c568bad",
+  "catalog_sha256": "b0a3547464eafbd565c46772ec6d75444b201d5b22571a1e75917be3a0cd7318",
+  "version": "myntra1000-benchmark120-v1",
+  "scope": "Generated development benchmark with a reserved test split, not independent human shopping-query evidence.",
+  "split_policy": "Related variants grouped; 84 dev / 36 reserved test. No test model/retrieval runs made during preparation.",
+  "image_policy": "10 exact-image lookups + 10 catalog-derived crops + 10 image/text requests pending human relevance judgments."
+}

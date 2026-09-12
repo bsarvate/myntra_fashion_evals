@@ -1,0 +1,10 @@
+{
+  "name": "myntra1000",
+  "catalog": "data/processed/myntra1000/catalog.json",
+  "image_root": "data/processed/myntra1000",
+  "benchmark_root": "evals/myntra1000_v1",
+  "products": 1000,
+  "evaluation_cases": 120,
+  "default_split": "dev",
+  "notebook": "notebooks/02_myntra1000_evaluation.ipynb"
+}
